@@ -228,7 +228,7 @@ def x():
 		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
-		print('SPEED BOOST \033[1;34m('\033[1;32mON/\033[38;5;196mOF\033[1;34m) AIRPLANE MODE')
+		print('SPEED BOOST \033[1;34m(mON/mOF) AIRPLANE MODE')
 		print(50*'_')
 		
 		for guru in user:
